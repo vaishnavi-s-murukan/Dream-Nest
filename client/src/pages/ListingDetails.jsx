@@ -6,7 +6,7 @@ import { facilities } from "../data";
 import "react-date-range/dist/styles.css";
 import "react-date-range/dist/theme/default.css";
 import { DateRange } from "react-date-range";
-import { enGB, fr } from "date-fns/locale";  // Add your locales here
+import enGB from "date-fns/locale/en-GB";  // Add your locales here
 
 import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
